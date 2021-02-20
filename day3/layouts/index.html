@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/day3/static/dist/tailwind.css" />
+    <title>Document</title>
+  <body>
+    <div class="m-4 items-start flex-col flex">
+      <!-- Heading -->
+      <h1 class="text-6xl font-normal leading-normal mt-2 mb-2 text-pink-800">
+        Her er mine knapper. 
+      </h1>
+      <!-- Button1 -->
+      <button
+        class="bg-blue-500 hover:bg-blue-700 focus:bg-red-700 text-white font-bold py-2 px-4 rounded mt-2"
+      >
+        Min knapp
+      </button>
+      <!-- Button2 -->
+      <button class="mr-5 bg-gray-200 hover:bg-gray-300 border border-gray-400 text-black font-bold py-2 px-6 rounded-md mt-2">
+        Button
+      </button>
+      <!-- Button3 -->
+      
+    <!-- <label class="flex items-center"> -->
+      <input class="relative w-10 h-5 transition-all duration-200 ease-in-out bg-gray-400 rounded-full shadow-inner outline-none appearance-none mt-2" type="checkbox" checked />
+      <span class="ml-2">Toggle</span>
+    <!-- </label> -->
+
+    <button class='relative bg-blue-500 text-white p-6 rounded text-2xl font-bold overflow-hidden mt-2'>
+      Fin knapp
+      <div class="ribbon bg-red-500 text-sm whitespace-no-wrap px-4">Fin Gnatt</div>
+    </button>
+    <button class=" border-gray-200 bg-grey-light hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center mt-2">
+      <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+      <span>Last ned</span>
+    </button>
+
+    <button class="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none mt-2">
+      Hover meg!
+    </button>
+    <button class="rounded transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 mt-2">
+      Hover meg også!
+    </button>
+    </div>
+  </body>
+</html>
