@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/day4/static/dist/tailwind.css" />
+    <title>Document</title>
+  <body>
+    <div class="m-4 items-start flex-col flex">
+      <!-- Heading -->
+      <h1 class="text-6xl font-normal leading-normal mt-2 mb-2 text-blue-800 text-center">
+        Min fine select-knapp
+      </h1>
+      <h3 class="mt-2">
+        Select med standard browser look
+      </h3>
+      <select class="mt-2">
+        <option>Yes</option>
+        <option>No</option>
+        <option>Maybe</option>
+      </select>
+      <h3 class="mt-2">Knapp hvor default er fjernet</h3>
+      <select class="mt-2 appearance-none bg-yellow-100 font-extrabold">
+        <option>Ja</option>
+        <option>Nei</option>
+        <option class="font-italic h-6">Kanskje</option>
+      </select>
+      <h3 class="mt-2">Enda en fin en</h3>
+      <select class="w-full h-10 pl-3 pr-6 text-base placeholder-gray-600 border rounded-lg appearance-none focus:shadow-outline mt-2" placeholder="Regular input">
+        <option>En fryktelig bred select</option>
+        <option>Another option</option>
+        <option>And one more</option>
+      </select>
+      </div>
+    </div>
+  </body>
+</html>
