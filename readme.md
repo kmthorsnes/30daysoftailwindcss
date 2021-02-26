@@ -25,5 +25,8 @@ Create state buttons with a hover and a transition effect. like primary button, 
 ## Challenge #04
 Create and rework a select button and style it with only Tailwind.
 
+## Challenge #05
+Create a form with buttons, inputs and text areas. Remember the download and upload buttons, those can be also included. And center it in the middle. Make it responsive.
+
 ### learning points
 It confusing to talk about select as buttons! It's input god damnit!
